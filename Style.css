@@ -1,0 +1,53 @@
+body {
+    background-color: #a1a199;
+    background-image: url(cat.jfif);
+    background-size: 800px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.login_box {
+    height: 600px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    border: 2px;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-top: 25px;
+}
+
+p {
+    font-family: cursive;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.inputs {
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+    border: 1px solid orange;
+}
+
+.inputs.focus {
+    width: 250px;
+    /* Increased width when focused */
+}
+
+.submit_btn {
+    margin-left: 150px;
+    margin-top: 30px;
+    background: orange;
+    border: 0;
+    border-radius: 40px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
